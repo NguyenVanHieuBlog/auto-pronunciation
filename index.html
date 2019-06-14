@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta property="og:title" content="Chương trình hỗ trợ phiên âm tiếng Anh tự động" />
+    <meta property="og:description" content="Chỉ cần copy văn bản tiếng Anh của bạn và dán nó vào đây và ấn nút Submit, việc phiên âm hãy để chúng tôi giúp bạn!" />
+    <meta property="og:type" content="website" />
+    <meta property="fb:app_id" content="1352107988256879" />
+    <meta property="og:url" content="https://nguyenvanhieu.vn/ho-tro-phien-am-tieng-anh" />
+    <meta property="og:image" content="https://nguyenvanhieu.vn/ho-tro-phien-am-tieng-anh/logo.jpg" />
+    <title>Chương trình hỗ trợ phiên âm tiếng Anh tự động</title>
+    <link rel="icon" type="image/x-icon" href="https://nguyenvanhieu.vn/ho-tro-phien-am-tieng-anh/logo.jpg">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="index.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1 class="heading">Hỗ trợ phiên âm tiếng Anh tự động</h1>
+        <p class="description">Chỉ cần copy văn bản tiếng Anh của bạn và dán nó vào đây và ấn nút Submit, việc phiên âm hãy để chúng tôi giúp bạn!</p>
+        <div class="row main">
+            <div class="col-md-1"></div>
+            <div class="col-md-10">
+                <div class="form-group">
+                    <label for="text">Văn bản tiếng anh</label>
+                    <textarea type="text" name="text" class="form-control" rows="5" id="text"></textarea>
+                </div>
+                <input type="button" class="btn btn-success btn-submit" value="Submit">
+                <input type="button" class="btn btn-default btn-reset" value="Reset">
+
+                <div class="result" title="Click me to copy!">
+                    <h3>Kết quả phiên âm:</h3>
+                    <p class="result-content"></p>
+                </div>
+
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+    </div>
+    <footer class="copyright">
+        <p class="copyright-content">
+            Made with <span style="color:red;">&#10084;</span> by <a href="http://nguyenvanhieu.vn">Lập trình không khó</a>. Dictionary at <a href="https://github.com/JoseLlarena/Britfone">Britfone</a>
+        </p>
+    </footer>
+</body>
+</html>

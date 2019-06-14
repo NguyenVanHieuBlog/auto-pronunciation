@@ -1,0 +1,29 @@
+.heading{
+    font-size: 2em;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.description{
+    margin-left: 20px;
+}
+
+.main{
+    margin-top: 20px;
+}
+
+.result{
+    display: none;
+    margin-top: 40px;
+    line-height: 2em;
+}
+
+.copyright{
+    position: absolute;
+    width: 100%;
+    bottom: 20px;
+}
+
+.copyright-content{
+    text-align: center;
+}
